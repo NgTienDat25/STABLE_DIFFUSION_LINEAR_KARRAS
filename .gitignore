@@ -4,6 +4,5 @@
 *.pt
 
 # Ignore generated outputs
-/output/
 __pycache__/
 .ipynb_checkpoints/
