@@ -1,0 +1,9 @@
+# Ignore large model weights
+*.ckpt
+*.safetensors
+*.pt
+
+# Ignore generated outputs
+/output/
+__pycache__/
+.ipynb_checkpoints/
