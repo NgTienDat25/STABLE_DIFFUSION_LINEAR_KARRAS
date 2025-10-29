@@ -10,15 +10,17 @@ integrating **Karras noise scheduling** to improve image quality and sampling ef
 - Generates comparable results with 30–35 steps vs. 50 linear DDPM steps
 
 ### Project Structure
+```bash
+
 project/
 ├── sd/ # core pipeline
 ├── data/
 ├── images/
 ├── output/
 ├── v1-5-pruned-emaonly.ckpt
-├── run.py
+├── demo.ipynb
 └── requirements.txt
-
+```
 ### Usage
 ```bash
 pip install -r requirements.txt
